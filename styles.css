@@ -63,10 +63,14 @@ body {
 	color: #000000;
 	font-family: garamond, times, serif;
 	font-size: 23px; 
-	max-width: 960px;
-	margin-top: 0 auto;
+	padding-bottom: 80px;
+	padding-top: 80px;
 }
 
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
 
 /*header*/
 
@@ -75,18 +79,41 @@ header {
 	font-family: century;
 	font-size: 46px;
 	font-variant: small-caps;
-	margin-top: 80px;
-	margin-left: 200px;
 	text-decoration: none;
 }
 
+	#home header {
+		text-align: center;
+	}
+
+	header a {
+		color: #767676;
+		text-decoration: none;
+	}
+
+		header a:hover {
+		color: #155f83;
+		}
+
+		header a:visited {
+			color: #767676;
+		}
+	
+	header nav {
+		float: right;
+	}
+
+	header nav li {
+		float: left;
+		margin-left: 10px;
+	}
 /*cont*/
 
 p {
 	font-size: 27px;
-	margin-top: 40px;
-	margin-left: 160px;
-	width: 750px;
+	/*margin-top: 40px;*/
+	/*margin-left: 160px;*/
+	/*width: 750px;*/
 }
 
 /*links*/
@@ -123,9 +150,41 @@ a:visited {
 	font-size: 35px;
 	line-height: 45px;
 	letter-spacing: 08px;
-	padding-left: 250px;
 	padding-top: 56px;
 	text-align: center;
 	}
+
+.columnleft {
+	width: 100px;
+	float: left;
+}
+
+.columncenter {
+	width: 760px;
+	float: left;
+}
+
+.columnright {
+	float: right;
+	text-align: right;
+	width: 100px;
+
+
+}
+
+/*clearfix*/
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
 
 
