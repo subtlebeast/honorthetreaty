@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blocktext-align: center
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Resetting Defaults*/
+
+b, strong {
+  font-weight: bold;
+}
+i, em {
+  font-style: italic;
+}
+
+/*Custom Styles*/
+
+body {
+	background: #ffffff;
+	color: #000000;
+	font-family: garamond, times, serif;
+	font-size: 23px; 
+	max-width: 960px;
+	margin-top: 0 auto;
+}
+
+
+/*header*/
+
+header {
+	color: #155f83;
+	font-family: century;
+	font-size: 46px;
+	font-variant: small-caps;
+	margin-top: 80px;
+	margin-left: 200px;
+	text-decoration: none;
+}
+
+/*cont*/
+
+p {
+	font-size: 27px;
+	margin-top: 40px;
+	margin-left: 160px;
+	width: 750px;
+}
+
+/*links*/
+
+a:link {
+	color: #767676;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #155f83;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #800000;
+}
+
+/*styles*/
+
+.bignumber {
+	color: #d6d6ce;
+	font-size: 32px;
+	font-family: verdana, arial, sans-serif;
+	font-weight: bold;
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-bottom: 40px;
+}
+
+.centeredsquare {
+	color: #767676;
+	font-family: garamond, times, serif; 
+	font-size: 35px;
+	line-height: 45px;
+	letter-spacing: 08px;
+	padding-left: 250px;
+	padding-top: 56px;
+	text-align: center;
+	}
+
+
