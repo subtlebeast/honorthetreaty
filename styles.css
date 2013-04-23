@@ -112,7 +112,12 @@ header {
 	header a:hover {
 	color: #155f83;
 	text-decoration: none;
-}
+	}
+
+	header a:visited {
+		color: #155f83;
+		text-decoration: none;
+	}
 
 /*Interior Header*/
 
@@ -140,10 +145,6 @@ header {
 		.navright a:hover {
 		color: #800000;
 		border-bottom: #800000 1px dotted;
-		}
-
-		header a:visited {
-			color: #767676;
 		}
 	
 	/*header nav {*/
