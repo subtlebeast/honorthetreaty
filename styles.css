@@ -103,7 +103,7 @@ header {
 
 .primary-logo {
 		float: left;
-		font-family: arial, verdana, sans-serif;
+		font-family: century, georgia, erif;
 		font-size: 40px;
 		font-variant: small-caps;
 		margin-top: 40px;
@@ -111,10 +111,11 @@ header {
 
 .action {
 	float: right;
-	font-family: arial, verdana, sans-serif;
-	font-size: 40px;
+	font-family: "lucida sans unicode", verdana, sans-serif;
+	font-size: 19px;
 	font-variant: small-caps;
-	margin-top: 40px;
+	margin-top: 57px;
+	text-transform: uppercase;
 }	
 
 	.clearfix {
@@ -149,8 +150,9 @@ header {
 
 /*Content*/
 
-.main-content {
+article {
 	background: #ffffff;
+	border-bottom: solid 1px #a50021; 
 }
 
 p {
@@ -187,7 +189,7 @@ a:visited {
 .bignumber {
 	color: #d6d6ce;
 	font-size: 32px;
-	font-family: arial, verdana, sans-serif;
+	font-family: verdana, arial, sans-serif;
 	font-weight: bold;
 	margin-left: 100px;
 	margin-bottom: 40px;
@@ -207,8 +209,12 @@ a:visited {
 .columnleft {
 	background: #ffffff;
 	float: left;
+	margin-top: 30px;
 	width: 100px;
-	
+	}
+
+.columnleft{
+	clear: left;
 }
 
 .columncenter {
@@ -220,12 +226,10 @@ a:visited {
 .columnright {
 	background: #ffffff;
 	float: right;
+	margin-top: 30px;
 	text-align: right;
 	width: 100px;
-
-
 }
-
 
 
 
