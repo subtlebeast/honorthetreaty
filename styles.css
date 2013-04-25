@@ -86,76 +86,72 @@ body {
 	font-family: garamond, times, serif;
 	font-size: 23px; 
 	padding-bottom: 60px;
-	padding-top: 100px;
 }
 
 /*header*/
 
 header {
-	color: #155f83;
-	font-family: century;
-	font-size: 53px;
-	font-variant: small-caps;
-	text-align: left
-	text-decoration: none;
+	background: #a50021;
+	height: 120px;
 }
 
 	#home header {
 		text-align: center;
 	}
 
-	header a {
-		color: #767676;
-		text-decoration: none;
-	}
-
-	header a:hover {
-	color: #155f83;
-	text-decoration: none;
-	}
-
-	header a:visited {
-		color: #155f83;
-		text-decoration: none;
-	}
-
 /*Interior Header*/
 
-.navleft {
+.primary-logo {
 		float: left;
+		font-family: arial, verdana, sans-serif;
 		font-size: 40px;
-		line-height: 40px;
+		font-variant: small-caps;
+		margin-top: 40px;
 	}
 
-.navright {
+.action {
 	float: right;
-	font-size: 34px;
-	line-height: 34px;
+	font-family: arial, verdana, sans-serif;
+	font-size: 40px;
+	font-variant: small-caps;
+	margin-top: 40px;
 }	
 
 	.clearfix {
 		clear: right;
 	}
 
-		.navleft a:hover {
+		.primary-logo a:hover {
 			color: #155f83;
-			border-bottom: #155f83 1px dotted;
 		}
 
-		.navright a:hover {
+		.action a:hover {
 		color: #800000;
-		border-bottom: #800000 1px dotted;
 		}
 	
-	/*header nav {*/
-		float: right;
+/*Interior Header Links	*/
+}
+
+	header a {
+		color: #ffffff;
+		text-decoration: none;
 	}
 
-	/*header nav li {*/
-		float: left;
-		margin-left: 10px;
+	header a:hover {
+	color: #002147;
+	text-decoration: none;
 	}
-/*cont*/
+
+	header a:visited {
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+/*Content*/
+
+.main-content {
+	background: #ffffff;
+}
 
 p {
 	font-size: 27px;
@@ -173,17 +169,17 @@ q {
 /*links*/
 
 a:link {
-	color: #767676;
+	color: #ffffff;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #155f83;
+	color: #002147;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #800000;
+	color: #ffffff;
 }
 
 /*styles*/
@@ -191,12 +187,11 @@ a:visited {
 .bignumber {
 	color: #d6d6ce;
 	font-size: 32px;
-	font-family: verdana, arial, sans-serif;
+	font-family: arial, verdana, sans-serif;
 	font-weight: bold;
-	margin-top: 100px;
 	margin-left: 100px;
 	margin-bottom: 40px;
-	padding-top: 90px;
+	padding-top: 40px;
 }
 
 .centeredsquare {
@@ -210,16 +205,20 @@ a:visited {
 	}
 
 .columnleft {
-	width: 100px;
+	background: #ffffff;
 	float: left;
+	width: 100px;
+	
 }
 
 .columncenter {
+	background: #ffffff;
 	width: 760px;
 	float: left;
 }
 
 .columnright {
+	background: #ffffff;
 	float: right;
 	text-align: right;
 	width: 100px;
