@@ -83,7 +83,7 @@ i, em {
 body {
 	background: #ffffff;
 	color: #000000;
-	font-family: garamond, times, serif;
+	font-family: garamond, times, georgia, serif;
 	font-size: 23px; 
 	padding-bottom: 60px;
 	padding-top: 60px;
@@ -148,7 +148,6 @@ header {
 /*Interior Header*/
 
 .primary-logo {
-		clear: both;
 		float: left;
 		font-family: century, georgia, serif;
 		font-size: 40px;
@@ -157,12 +156,12 @@ header {
 	}
 
 .action {
-	clear: right;
 	float: right;
-	font-family: verdana, arial, sans-serif;
+	font-family: 'Signika Negative', verdana, arial, sans-serif;
 	font-size: 19px;
 	font-variant: small-caps;
-	padding: 5px;
+	padding-right: 5px;
+	padding-top: 26px;
 	text-transform: uppercase;
 }	
 
@@ -184,13 +183,14 @@ article {
 	background: #ffffff;
 }
 
-article a {
-	border-bottom: 1px dotted #a50021;
-	padding-bottom: 2px;
-}
+	article a {
+		border-bottom: 1px dotted #a50021;
+		padding-bottom: 2px;
+	}
 
 p {
 	font-size: 23px;
+	line-height: 31px;
 	padding-bottom: 30px;
 }
 
@@ -280,7 +280,7 @@ a:hover {
 footer {
 	border-top: solid 1px #a50021;
 	color: #d6d6ce;
-	font-family: verdana, arial, sans-serif;
+	font-family: 'Signika Negative', verdana, arial, sans-serif;
 	font-size: 14px;
 	margin: 45px auto;
 	padding: 5px;
@@ -332,10 +332,40 @@ nav {
 
 img {
 	border: solid 1px #000000;
-	margin-top: 15px;
-	margin-bottom: 25px	;
-	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px	;
 }
 
+p.photo {
+	text-align: center;
+}
+
+p.photo img {
+	width: 300px;
+}
+
+.columncenter .column {
+	float: left;
+	width: 350px;
+}
+
+/*Signature*/
+
+.signature {
+	font-family: 'Diplomata SC', georgia, times, serif;
+	font-size: 15px;
+	text-align: right;
+	margin-right: 30px;
+	margin-top: 60px;
+}
+
+	#home .signature a {
+		color: #800000;
+
+	}
+
+	#home .signature a:hover {
+		color: #000000;
+	}
 
 
