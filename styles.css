@@ -57,6 +57,21 @@ i, em {
   font-style: italic;
 }
 
+/*clearfix*/
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+
 /*Custom Styles*/
 
 body {
@@ -77,8 +92,8 @@ body {
 
 header {
 	color: #155f83;
-	font-family: century;
-	font-size: 46px;
+	font-family: garamond;
+	font-size: 66px;
 	font-variant: small-caps;
 	text-decoration: none;
 }
@@ -97,7 +112,7 @@ header {
 		}
 
 		header a:visited {
-			color: #767676;
+			color: #540115;
 		}
 	
 	header nav {
@@ -173,19 +188,6 @@ a:visited {
 
 }
 
-/*clearfix*/
 
-.clearfix:before,
-.clearfix:after {
-  content: "";
-  display: table;
-}
-.clearfix:after {
-  clear: both;
-}
-.clearfix {
-  clear: both;
-  *zoom: 1;
-}
 
 
