@@ -105,6 +105,7 @@ header {
 	font-family: century, garamond, georgia, serif;
 	font-size: 79px;
 	font-variant: small-caps;
+	letter-spacing: 4px;
 	padding: 40px 0; 
 	text-align: center;
 	text-shadow: 2px 4px 3px #000000;
@@ -143,12 +144,13 @@ nav {
 
 .button {
 	/*line-height: 450px;*/
-	background-color: #155f83;
+	background-color: #a50021;
 	border-bottom: none;
-	-moz-border-radius: 20px;
-	-o-border-radius: 20px;
+	   -moz-border-radius: 20px;
+		 -o-border-radius: 20px;
 	-webkit-border-radius: 20px;
-	border-radius: 20px;
+			border-radius: 20px;
+	box-shadow: 2px 4px 4px #767676;
 	color: #ffffff !important;
 	display:block;
 	font-family: century, garamond, georgia, serif;
@@ -162,7 +164,7 @@ nav {
 }
 
 .button:hover {
-	background: #a50021;
+	background: #155f83;
 }
 
 .navbox {
