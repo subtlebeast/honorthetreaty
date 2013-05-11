@@ -199,14 +199,14 @@ body {
 	background: #ffffff;
 	background-image: url(img/paper.png);
 	color: #000000;
-	font-family: times, courier, serif;
+	font-family: times, garamond, georgia, serif;
 	font-size: 23px; 
 	padding-bottom: 100px;
 }
 
 p {
-	font-size: 26px;	
-	line-height: 37px;
+	font-size: 28px;	
+	line-height: 38px;
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
@@ -237,6 +237,7 @@ article {
 
 blockquote {
 	background: #d6d6ce;
+	margin-bottom: 35px;
 	padding-bottom: 60px;
 }
 
@@ -279,9 +280,41 @@ h2 {
 
 .image img {
 	border: solid 2px #000000;
+	margin-top: 20px;
 	text-align: center;
 }
 
+.columnleft img {
+	border: solid 2px #000000;
+	margin-top: 10px;
+	width: 345px;
+}
+
+.columnright img {
+	border: solid 2px #000000;
+	margin-top: 10px;
+}
+
+.treaty img {
+	float: left;
+	margin: 40px 0;
+	width: 730px;
+}
+
+/*Lists*/
+
+ul {
+	margin-bottom: 20px;
+	line-height: 36px;
+	list-style: disc;
+}
+
+/*cites*/
+
+q {
+	font-size: 17px;
+	padding-bottom: 45px; 
+}
 /*Footer*/
 
 
