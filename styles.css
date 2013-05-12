@@ -137,10 +137,14 @@ nav {
 	font-size: 14px;
 	font-family: verdana, arial, sans-serif;
 	letter-spacing: 1px;
-	line-height: 17px;
-	/*position: fixed;*/
-	/*margin: 84px auto 0 auto;
-	width: 230px;*/
+	width: 190px;
+}
+
+nav li {
+	float: left;
+	line-height: 18px;
+	list-style: none;
+	margin-left: 5px;
 }
 
 .button {
@@ -217,14 +221,14 @@ section {
 	float: left;
 	font-size: 42px;
 	font-family: verdana, arial, sans-serif;
-	margin: 50px 0 30px 230px;
+	margin: 50px 0 10px 230px;
 }
 
 	.sectiondivider {
-		color: #767676;
+		color: #d6d6ce;
 		font-family: verdana, sans-serif;
 		font-size: 30px;
-		letter-spacing: 70px;
+		letter-spacing: 20px;
 		margin: 50px 0 0 0;
 		text-align: center;
 	}
@@ -276,13 +280,18 @@ h2 {
 		float: left;
 		width: 365px;
 	}
+
 /*images*/
 
-.image img {
-	border: solid 2px #000000;
-	margin-top: 20px;
+.image {
 	text-align: center;
 }
+
+	.image img {
+		border: solid 2px #000000;
+		margin-top: 20px;
+	}
+
 
 .columnleft img {
 	border: solid 2px #000000;
@@ -301,12 +310,22 @@ h2 {
 	width: 730px;
 }
 
+.caption {
+	font-size: 16px;
+	font-style: italic;
+	line-height: 1;
+}
+
 /*Lists*/
 
 ul {
 	margin-bottom: 20px;
 	line-height: 36px;
 	list-style: disc;
+}
+
+article ul {
+	padding-left: 50px;
 }
 
 /*cites*/
@@ -317,8 +336,37 @@ q {
 }
 /*Footer*/
 
+footer {
+   border-top: solid 1px #a50021;
+   font-family: verdana, arial, sans-serif;
+   font-family: verdana, arial, sans-serif;
+   font-size: 14px;
+   margin-left: 230px;
+  }
 
+  footer ul {
+  	color: #d6d6ce;
+  	float: right;
+  	list-style: none;
+  }
 
+  footer li {
+  	display: inline;
+  	margin: 5px;
+  }
+
+  footer a {
+  	border-bottom: none;
+  	color: #767676;
+  	
+  	text-decoration: none;
+  }
+
+  footer p {
+  	color: #d6d6ce;
+  	clear: right;
+  	float: right;
+  }
 
 
 
