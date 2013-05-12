@@ -358,15 +358,34 @@ footer {
   footer a {
   	border-bottom: none;
   	color: #767676;
-  	
-  	text-decoration: none;
+   	text-decoration: none;
   }
+
+  	footer a:visited {
+		color: #767676;
+		}
+
+	footer a:hover {
+		color: #a50021;
+		}
 
   footer p {
   	color: #d6d6ce;
   	clear: right;
   	float: right;
   }
+
+  	footer p a {
+  		color: #d6d6ce;
+  	}
+
+  	footer p a:visited {
+		color: #d6d6ce;
+	}
+
+		footer p a:hover {
+		color: #000000;
+	}
 
 
 
