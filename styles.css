@@ -261,6 +261,19 @@ blockquote {
 		margin: 15px 35px 25px 0;
 	}
 
+h1 a {
+	border-bottom: none;
+	color: #767676
+	}
+
+	h1 a:visited {
+		color:#767676;
+	}
+
+	h1 a:hover {
+		color:#a50021;
+	}
+
 h2 {
 	line-height: 60px;
 }
