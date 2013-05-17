@@ -304,6 +304,9 @@ h2 {
 		margin-top: 20px;
 	}
 
+	.image a {
+		border-bottom: none;
+	}
 
 .columnleft img {
 	border: solid 2px #000000;
