@@ -37,6 +37,7 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blocktext-align: center
 q:before, q:after {
 	content: '';
@@ -111,7 +112,7 @@ header {
 	
 }
 
-/*Nav*/
+/*Logo and Button*/
 	
 .logo {
 	color: #767676;
@@ -124,26 +125,6 @@ header {
 	/*margin: 50px auto 0 auto;*/
 	/*position: fixed;*/ 
 	/*width: 230px;*/
-}
-
-/*.navbox > * {
-	text-align: center;
-}*/
-
-nav {
-	color: #d6d6ce;
-	/*float: left;*/
-	font-size: 14px;
-	font-family: verdana, arial, sans-serif;
-	letter-spacing: 1px;
-	width: 190px;
-}
-
-nav li {
-	float: left;
-	line-height: 18px;
-	list-style: none;
-	margin-left: 5px;
 }
 
 .button {
@@ -172,6 +153,29 @@ nav li {
 	background: #155f83;
 }
 
+
+/*Nav*/
+
+/*.navbox > * {
+	text-align: center;
+}*/
+
+nav {
+	color: #d6d6ce;
+	/*float: left;*/
+	font-size: 14px;
+	font-family: verdana, arial, sans-serif;
+	letter-spacing: 1px;
+	width: 190px;
+}
+
+nav li {
+	float: left;
+	line-height: 18px;
+	list-style: none;
+	margin-left: 5px;
+}
+
 .navbox {
 	margin-top: 50px;
 	position: fixed;
@@ -194,6 +198,21 @@ nav li {
 	}
 
 	
+/*Columns*/
+
+.columns{
+
+}
+
+	.columnleft {
+		float: left;
+		width: 365px;
+	}
+
+	.columnright {
+		float: left;
+		width: 365px;
+	}
 
 /*Body*/
 
@@ -238,6 +257,25 @@ article {
 	width: 730px;
 }
 
+h1 a {
+	border-bottom: none;
+	color: #767676
+	}
+
+	h1 a:visited {
+		color:#767676;
+	}
+
+	h1 a:hover {
+		color:#a50021;
+	}
+
+h2 {
+	line-height: 60px;
+}
+
+/*Quotes and Cites*/
+
 blockquote {
 	background: #d6d6ce;
 	margin-bottom: 35px;
@@ -260,42 +298,15 @@ blockquote {
 		margin: 15px 35px 25px 0;
 	}
 
+q {
+	font-size: 17px;
+	padding-bottom: 45px; 
+}
+
 cite {
 	font-style: italic;
 }
 
-h1 a {
-	border-bottom: none;
-	color: #767676
-	}
-
-	h1 a:visited {
-		color:#767676;
-	}
-
-	h1 a:hover {
-		color:#a50021;
-	}
-
-h2 {
-	line-height: 60px;
-}
-
-/*Columns*/
-
-.columns{
-
-}
-
-	.columnleft {
-		float: left;
-		width: 365px;
-	}
-
-	.columnright {
-		float: left;
-		width: 365px;
-	}
 
 /*images*/
 
@@ -347,12 +358,6 @@ article ul {
 	padding-left: 50px;
 }
 
-/*cites*/
-
-q {
-	font-size: 17px;
-	padding-bottom: 45px; 
-}
 /*Footer*/
 
 footer {
