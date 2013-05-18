@@ -260,6 +260,10 @@ blockquote {
 		margin: 15px 35px 25px 0;
 	}
 
+cite {
+	font-style: italic;
+}
+
 h1 a {
 	border-bottom: none;
 	color: #767676
