@@ -276,31 +276,26 @@ h2 {
 
 /*Quotes and Cites*/
 
-blockquote {
+blockquote.inset {
 	background: #d6d6ce;
-	margin-bottom: 35px;
-	padding-bottom: 60px;
-}
-
-	blockquote p {
-		background: #d6d6ce; 
-		color: #000000;
 		font-family: courier, garamond, georgia, serif;
 		font-size: 30px;
-		margin-bottom: .25em;
+	margin-bottom: 35px;
+/*	padding-bottom: 60px;*/
 		padding: 50px 50px 0 50px;
 		text-align: center;
-	}
 
-	blockquote h5 {
+}
+
+	blockquote.inset cite {
 		color: #a50021;
 		float: right;
+		font-size: 22px;
 		margin: 15px 35px 25px 0;
 	}
 
 q {
-	font-size: 17px;
-	padding-bottom: 45px; 
+/*	padding-bottom: 45px; */
 }
 
 cite {
@@ -322,6 +317,10 @@ cite {
 	.image a {
 		border-bottom: none;
 	}
+
+p iframe {
+	text-align: center;
+}
 
 .columnleft img {
 	border: solid 2px #000000;
