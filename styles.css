@@ -318,6 +318,15 @@ cite {
 		border-bottom: none;
 	}
 
+.imagebox a {
+	border-bottom: none;
+}
+
+.imagebox img {
+	height: 90px;
+}
+
+
 p iframe {
 	text-align: center;
 }
