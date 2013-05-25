@@ -318,13 +318,16 @@ cite {
 		border-bottom: none;
 	}
 
+
+
 .imagebox a {
 	border-bottom: none;
+	margin: 10px;
 }
 
-.imagebox img {
+/*.imagebox img {
 	height: 90px;
-}
+}*/
 
 
 p iframe {
