@@ -227,7 +227,7 @@ body {
 }
 
 p {
-	font-size: 28px;	
+	font-size: 22px;	
 	line-height: 38px;
 	margin-bottom: 20px;
 	margin-top: 10px;
@@ -237,7 +237,7 @@ section {
 	color: #767676;
 	clear: left;
 	float: left;
-	font-size: 42px;
+	font-size: 36px;
 	font-family: verdana, arial, sans-serif;
 	margin: 50px 0 10px 230px;
 }
@@ -245,7 +245,7 @@ section {
 	.sectiondivider {
 		color: #d6d6ce;
 		font-family: verdana, sans-serif;
-		font-size: 30px;
+		font-size: 24px;
 		letter-spacing: 20px;
 		margin: 50px 0 0 0;
 		text-align: center;
@@ -290,7 +290,7 @@ blockquote.inset {
 	blockquote.inset cite {
 		color: #a50021;
 		float: right;
-		font-size: 22px;
+		font-size: 16px;
 		margin: 15px 35px 25px 0;
 	}
 
@@ -352,7 +352,7 @@ p iframe {
 }
 
 .caption {
-	font-size: 16px;
+	font-size: 14px;
 	font-style: italic;
 	line-height: 1;
 }
@@ -409,7 +409,7 @@ footer {
   	clear: right;
   	float: right;
   	font-family: 'Diplomata SC', courier, serif;
-  	font-size: 22px;
+  	font-size: 18px;
   }
 
   	footer p a {
